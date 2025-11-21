@@ -1,6 +1,9 @@
+import './Header.css'
+
 function Header(){
+    
     return(
-        <Header>
+        <header className='header'>
             <img src="./assets/react.svg" alt="IEEE logo" className="logo"/>
             <img src="./assets/react.svg" alt="NJIT logo" className="logo"/>
             <nav>
@@ -10,9 +13,11 @@ function Header(){
                     <li><a href="#">Upcoming Events</a></li>
                     <li><a href="#">Meet the Team</a></li>
                 </ul>
+                <hr></hr>
             </nav>
-        </Header>
-    )
+        </header>
+    );
+
 }
 
 export default Header

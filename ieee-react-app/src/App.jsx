@@ -1,4 +1,5 @@
-import Header from './Header'
+import Header from './Header.jsx'
+import Footer from './Footer.jsx'
 //import './App.css'
 
 function App() {
@@ -6,9 +7,11 @@ function App() {
 
   return (
     <>
-      <Header/>
+      <Header />
+      <Footer />
     </>
-  )
+  );
+
 }
 
 export default App
